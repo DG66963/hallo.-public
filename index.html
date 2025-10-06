@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deine Webseite</title>
+    <style>
+        /* Grundlegendes Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            color: white;
+            display: block;
+            padding: 1rem 2rem;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+
+        main {
+            padding: 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1rem 0;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 2rem;
+        }
+
+        /* Kleine responsive Anpassung */
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li a {
+                padding: 0.5rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Willkommen auf meiner Webseite</h1>
+        <p>Hier ist ein kurzer Untertitel</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Über mich</a></li>
+            <li><a href="#services">Leistungen</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Startseite</h2>
+            <p>Dies ist der Einstiegstext deiner Webseite. Hier kannst du alles Wichtige kurz vorstellen.</p>
+            <img src="https://via.placeholder.com/800x400" alt="Beispielbild Startseite">
+        </section>
+
+        <section id="about">
+            <h2>Über mich</h2>
+            <p>Hier kommt eine Beschreibung über dich, deine Arbeit oder dein Projekt.</p>
+            <img src="https://via.placeholder.com/800x400" alt="Beispielbild Über mich">
+        </section>
+
+        <section id="services">
+            <h2>Leistungen</h2>
+            <p>Stelle hier deine Services oder Angebote vor.</p>
+            <img src="https://via.placeholder.com/800x400" alt="Beispielbild Leistungen">
+        </section>
+
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <p>Hier kannst du deine Kontaktdaten angeben oder ein Formular einfügen.</p>
+            <img src="https://via.placeholder.com/800x400" alt="Beispielbild Kontakt">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Dein Name. Alle Rechte vorbehalten.</p>
+    </footer>
+
+</body>
+</html>
